@@ -1,0 +1,56 @@
+// Unfortunately there are several game systems out there that use `!important` to override styles
+#dissect {
+	accent-color: var(--dissect-medium-color);
+	font-family: "Signika", sans-serif !important;
+	font-size: 0.875rem !important;
+
+	--dissect-dark-color: hsl(20, 30%, 20%);
+	--dissect-medium-color: hsl(20, 70%, 40%);
+	--dissect-light-color: hsl(20, 70%, 60%);
+	--dissect-text-dark-color: black;
+	--dissect-text-light-color: white;
+
+	--tjs-action-ripple-background: linear-gradient(64.5deg, var(--dissect-medium-color) 40%, var(--dissect-light-color) 60% );
+
+	--tjs-input-text-padding: 0 0.25em;
+	--tjs-input-placeholder-color: hsl(50deg 15% 30%);
+	--tjs-icon-button-background: hsl(50deg 10% 80%);
+	--tjs-icon-button-background-hover: hsl(50deg 10% 75%);
+	--tjs-icon-button-background-selected: hsla(20, 70%, 60%, 0.2);
+
+	.window-content {
+		background: url(../../../ui/parchment.jpg) !important;
+		padding: 0 !important;
+
+		scrollbar-color: var(--dissect-medium-color) var(--dissect-dark-color) !important; // For firefox
+
+		a,
+		p {
+			font-family: "Signika", sans-serif !important;
+			font-size: 0.875rem !important;
+		}
+
+		a:hover {
+			text-shadow: 0 0 8px var(--dissect-medium-color) !important;
+		}
+
+		select {
+			background: rgba(0, 0, 0, 0.05) !important;
+			color: var(--dissect-dark-text-color) !important;
+		}
+
+		::-webkit-scrollbar {
+			width: 6px;
+			height: 6px;
+		}
+
+		::-webkit-scrollbar-thumb {
+			background: var(--dissect-dark-color);
+			border: 1px solid var(--dissect-medium-color);
+		}
+
+		::-webkit-scrollbar-track {
+			box-shadow: none;
+		}
+	}
+}

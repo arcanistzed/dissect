@@ -1,0 +1,53 @@
+{
+	"id": "dissect",
+	"name": "dissect",
+	"title": "Adventure Dissection Tool",
+	"description": "Dissect your adventure documents and only import what you need!",
+	"authors": [
+		{
+			"name": "Arcanist",
+			"url": "https://arcanist.me",
+			"email": "arcanistzed@gmail.com",
+			"discord": "arcanist#4317",
+			"reddit": "u/arcanistzed"
+		}
+	],
+	"url": "This is auto replaced",
+	"license": "https://github.com/arcanistzed/dissect/blob/main/LICENSE",
+	"readme": "https://github.com/arcanistzed/dissect/blob/main/README.md",
+	"bugs": "https://github.com/arcanistzed/dissect/issues/new/choose",
+	"changelog": "https://github.com/arcanistzed/dissect/blob/main/CHANGELOG.md",
+	"flags": {
+		"allowBugReporter": true,
+		"fvttdevleague": {
+			"package-jam": 2022
+		}
+	},
+	"version": "This is auto replaced",
+	"compatibility": {
+		"minimum": "10",
+		"verified": "10"
+	},
+	"minimumCoreVersion": "10",
+	"compatibleCoreVersion": "10",
+	"scripts": [],
+	"esmodules": [
+		"index.js"
+	],
+	"styles": [
+		"style.css"
+	],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "languages/en.json"
+		}
+	],
+	"packs": [],
+	"manifest": "This is auto replaced",
+	"download": "This is auto replaced",
+	"library": false,
+	"manifestPlusVersion": "1.2.0",
+	"media": []
+}
